@@ -1,0 +1,29 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo {
+  text-decoration: none;
+
+  display: inline-block;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: black;
+}
+
+.footer-nav {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav__item:not(:last-child) {
+  margin-right: 20px;
+}
