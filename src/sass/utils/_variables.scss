@@ -1,0 +1,57 @@
+// Background-color
+$bgcolor-primary: #84a278;
+$bgcolor-accent-linear: linear-gradient(
+    0deg,
+    rgba(248, 210, 78, 0.7),
+    rgba(248, 210, 78, 0.7)
+  ),
+  #d9d9d9;
+
+// Background-color Card Section Products
+$bgcolor-primary-light: #aec6a5;
+$bgcolor-accent-light: #efd478;
+$bgcolor-secondary: #d6936d;
+
+// Color
+$color-accent: #f8d24e;
+$color-button-hover: #0a8817;
+$color-white-primary: #ffffff;
+$color-white-secondary: #fcfcfc;
+$color-black-primary: #131313;
+$color-black-light: #7a7a7a;
+
+// Box-shadow
+$box-shadow-primary: 0px 8px 30px rgba(153, 114, 23, 0.25);
+
+$borders: (
+  'primary': 1px solid #ececec,
+  'secondary': 1px solid rgba(33, 33, 33, 0.2),
+  'icon': 1px solid #afb1b8,
+  'accent': 1px solid #2196f3,
+  'input': 1px solid rgba(255, 255, 255, 0.3),
+  'checkbox': 2px solid #212121,
+);
+
+$box-shadow-primary: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+$box-shadow-secondary: 0px 3px 1px rgba(0, 0, 0, 0.1),
+  0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+$box-shadow-simple: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+$main-gap: 30px;
+
+$primary-border-radius: 4px;
+
+$general-cubic: cubic-bezier(0.4, 0, 0.2, 1);
+$general-duration: 250ms;
+
+$transitions: (
+  'color': color $general-duration $general-cubic,
+  'background-color': background-color $general-duration $general-cubic,
+  'transform': transform $general-duration $general-cubic,
+  'box-shadow': box-shadow $general-duration $general-cubic,
+  'border': border $general-duration $general-cubic,
+  'opacity': opacity $general-duration $general-cubic,
+  'visibility': visibility $general-duration $general-cubic,
+  'fill': fill $general-duration $general-cubic,
+);
