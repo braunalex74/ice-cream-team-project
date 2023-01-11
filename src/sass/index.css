@@ -1,5 +1,11 @@
 @import '~node_modules/modern-normalize/modern-normalize.css';
 body {
+  background-color: #84a278;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.1428571429;
+  letter-spacing: 0.04em;
   font-family: "Montserrat", sans-serif;
 }
 
