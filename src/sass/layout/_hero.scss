@@ -1,0 +1,248 @@
+.hero {
+    margin-right: auto;
+    margin-left: auto;
+
+    &__title-zahl {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+
+         @media screen and (max-width: 768px) {
+            padding-top: 40px;
+            padding-bottom: 32px;
+        }
+
+         @media screen and (min-width: 768px) {
+            padding-top: 14px;
+        }
+
+        @media screen and (min-width: 1200px) {
+            padding-top: 45px;
+        }
+    }
+
+    &__title {
+        width: 247px;
+
+        font-family: 'Seymour One', sans-serif;
+        font-style: normal;
+        font-size: 26px;
+        line-height: calc(33 / 26);
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+
+        display: block;
+
+        color: #FCFCFC;
+
+        @media screen and (min-width: 1200px) {
+            width: 367px;
+
+            font-size: 38px;
+            line-height: calc(48 / 38);
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+
+            color: #FCFCFC;
+        }
+    }
+
+    &-zahl__list {
+        display: block;
+        margin-right: 0;
+        text-align: end;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    &-zahl__item {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: calc(34 / 28);
+        letter-spacing: 0.04em;
+
+        color: #131313;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 46px;
+            line-height: calc(56 / 46);
+           
+            letter-spacing: 0.04em;
+
+            color: #131313;
+
+        }
+    }
+
+    &-zahl__item:not(:last-child) {
+        margin-bottom: 20px;
+
+        @media screen and (min-width: 1200px) {
+            margin-bottom: 16px;
+        }
+    }
+
+    &-zahl__text {
+        margin-top: 4px;
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: calc(10 / 8);
+
+        color: #FCFCFC;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+            line-height: calc(17 / 14);
+
+            color: #FCFCFC;
+        }
+    }
+
+    &__btn {
+        font-family: 'Montserrat' sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: calc(15 / 12);
+
+        padding: 11px 26px;
+
+        align-items: center;
+        text-align: center;
+
+        color: var(--hero-btn-title-color);
+        background-color: var(--hero-beckground-color);
+        border: 2px solid #F8D24E;
+        border-radius: 8px;
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover {
+            border: 2px solid #0A8817;
+        }
+
+        &:focus {
+            border: 2px solid #0A8817;
+            color: #ffffff;
+        }
+
+        &:disabled {
+            border: 2px solid #ABABAB;
+        }
+
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+            line-height: calc(18 / 14);
+            width: 134px;
+        }
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__products-lorem {
+        display: block;
+    }
+
+    &__link {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: calc(15 / 12);
+        margin-left: 12px;
+
+        text-decoration-line: underline;
+
+        color: var(--logo-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover {
+            color: #0A8817;
+        }
+
+        &:focus {
+            color: #ffffff;
+        }
+
+        &:disabled {
+            color: #ABABAB;
+        }
+
+        @media screen and (min-width: 1200px) {
+            font-size: 14px;
+            line-height: calc(17 / 14);
+        }
+    }
+
+    &__lorem {
+        width: 139px;
+        margin-top: 39px;
+        margin-left: 196px;
+
+        font-size: 12px;
+        line-height: calc(14 / 12);
+
+        color: #FCFCFC;
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 200px;
+            margin-top: 111px;
+            margin-left: 257px;
+
+            font-size: 14px;
+            line-height: 140%;
+
+            color: #FCFCFC;
+
+        }
+    }
+    
+    &-lorem__btn {
+        fill: #ffffff;
+        background-color:  #84A178;;
+        border: none;
+    }
+
+}
+
+.canvas {
+    max-width: 1200px;
+    height: 453px;
+    background-color: var(--hero-beckground-color);
+
+    background-image: url('/images/hero-teller.png'), url('/images/ice-cream-punkt-mob-left.png'), url('/images/ice-crem-mobile.png'), url('/images/ice-cream-punkt-mob-right.png');
+    background-size: 0, 106px, 177px, 127px;
+    background-repeat: no-repeat;
+    background-position: bottom 0 left 0px, bottom 0 left 0, bottom 0 left 83px, bottom 0 right 0;
+
+    @media screen and (min-width: 480px) {
+        background-image: url('/images/hero-teller.png'), url('/images/ice-cream-punkt-left-480.png'), url('/images/ice-crem-mob-480.png'), url('/images/ice-cream-punkt-right-480.png');
+        height: 357px;
+        background-size: 0, 110px, 218px, 130px;
+        background-position: bottom 0 left 0, bottom 0 left 150px, bottom 0 left 235px, bottom 0 right 0;
+    }
+
+    @media screen and (min-width: 768px) {
+        background-image: url('/images/hero-teller.png'), url('/images/ice-crem-punkt-left-768.png'), url('/images/ice-crem-tab.png'), url('/images/ice-crem-punkt-right-768.png');
+        height: 349px;
+        background-size: 152px, 110px, 268px, 182px;
+        background-position: bottom 12px left 32px, bottom 0 left 0, bottom 0 left 415px, bottom 0 right 0;
+    }
+
+    @media screen and (min-width: 1200px) {
+        background-image: url('/images/hero-teller-desctop.png'), url('/images/ice-crem-desktop.png'), url('/images/ice-cream-punkt-desctop.png');
+        height: 591px;
+        background-size: 225px, 456px, 1200px;
+        background-position: bottom 63px left 16px, bottom 0 left 652px, bottom 0 left 0;
+    }
+}
