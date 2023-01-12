@@ -220,27 +220,27 @@
     height: 453px;
     background-color: var(--hero-beckground-color);
 
-    background-image: url('/images/hero-teller.png'), url('/images/ice-cream-punkt-mob-left.png'), url('/images/ice-crem-mobile.png'), url('/images/ice-cream-punkt-mob-right.png');
+    background-image: url('/images/hero/hero-teller.png'), url('/images/hero/ice-cream-punkt-mob-left.png'), url('/images/hero/ice-crem-mobile.png'), url('/images/hero/ice-cream-punkt-mob-right.png');
     background-size: 0, 106px, 177px, 127px;
     background-repeat: no-repeat;
     background-position: bottom 0 left 0px, bottom 0 left 0, bottom 0 left 83px, bottom 0 right 0;
 
     @media screen and (min-width: 480px) {
-        background-image: url('/images/hero-teller.png'), url('/images/ice-cream-punkt-left-480.png'), url('/images/ice-crem-mob-480.png'), url('/images/ice-cream-punkt-right-480.png');
+        background-image: url('/images/hero/hero-teller.png'), url('/images/hero/ice-cream-punkt-left-480.png'), url('/images/hero/ice-crem-mob-480.png'), url('/images/hero/ice-cream-punkt-right-480.png');
         height: 357px;
         background-size: 0, 110px, 218px, 130px;
         background-position: bottom 0 left 0, bottom 0 left 150px, bottom 0 left 235px, bottom 0 right 0;
     }
 
     @media screen and (min-width: 768px) {
-        background-image: url('/images/hero-teller.png'), url('/images/ice-crem-punkt-left-768.png'), url('/images/ice-crem-tab.png'), url('/images/ice-crem-punkt-right-768.png');
+        background-image: url('/images/hero/hero-teller.png'), url('/images/hero/ice-crem-punkt-left-768.png'), url('/images/hero/ice-crem-tab.png'), url('/images/hero/ice-crem-punkt-right-768.png');
         height: 349px;
         background-size: 152px, 110px, 268px, 182px;
         background-position: bottom 12px left 32px, bottom 0 left 0, bottom 0 left 415px, bottom 0 right 0;
     }
 
     @media screen and (min-width: 1200px) {
-        background-image: url('/images/hero-teller-desctop.png'), url('/images/ice-crem-desktop.png'), url('/images/ice-cream-punkt-desctop.png');
+        background-image: url('/images/hero/hero-teller-desctop.png'), url('/images/hero/ice-crem-desktop.png'), url('/images/hero/ice-cream-punkt-desctop.png');
         height: 591px;
         background-size: 225px, 456px, 1200px;
         background-position: bottom 63px left 16px, bottom 0 left 652px, bottom 0 left 0;
