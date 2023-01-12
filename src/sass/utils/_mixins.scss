@@ -4,7 +4,7 @@
   justify-content: center;
 }
 
-@mixin font($fz: 14, $fw: 400, $lh: 24, $ls: 0.03) {
+@mixin font($fz: 14, $fw: 400, $lh: 16, $ls: 0.04) {
   font-size: $fz + px;
   font-weight: $fw;
   line-height: ($lh / $fz);
